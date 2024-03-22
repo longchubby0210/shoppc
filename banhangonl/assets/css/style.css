@@ -9,15 +9,16 @@ html {
 }
 header {
     text-align: center;
-    margin-top: 38px;
+    margin-top: 47px;
     background-color: #F1C4C8;
 }
 body {
     background-color: #a89da7;
+    
 }
 
- #header{
-    height: 38px;
+#header{
+    height: 47px;
     background-color: #E30019;
     position: fixed;
     top: 0;
@@ -25,10 +26,12 @@ body {
     right: 0;
     text-align: center;
     max-width: auto;
-    margin: auto;
+    z-index: 1;
 }
 
 /* --------------nav---------------- */
+
+
 #nav > img{
     width: 100%;
 }
@@ -53,6 +56,7 @@ body {
 }
 #nav li {
     position: relative;
+    text-align: center;
 }
 #nav > li {
     display: inline-block;
@@ -64,36 +68,55 @@ body {
     color:#fff;
     text-transform:uppercase;
     font-weight: 550;
-    
+ 
 }
 #nav li a {
     text-decoration: none;
-    line-height: 38px;
-    padding: 0 20px;
+    line-height: 47px;
+    padding: 0 25px;
     display:block;
+    text-align: center;
 }
 #nav li:hover .subnav{
     display: block;
 }
 #nav li:nth-child(5) {
+    padding-left: 150px;
     position: relative;
 }
 #nav li:nth-child(5) input {
-    height: 30px;
-    width: 100%;
+    height: 38px;
+    width: 230px;
     border: none;
     border-radius: 5px;
 }
 #nav li:nth-child(5) i {
     position: absolute;
-    font-size: 15px;
+    font-size: 19px;
     right: 12px;
     color: #333;
-    line-height: 30px;
+    line-height: 38px;
 }
 #nav  li :nth-child(6) {
-    
     width: 100px;
+}
+#nav .fa-user-circle {
+    float:right;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.login {
+    display: inline-block;
+}
+#nav .login button {
+   
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin-left: 15px;
+    color: black;
 }
 #nav  li :nth-child(7) {
     width: 100px;
