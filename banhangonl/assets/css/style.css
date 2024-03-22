@@ -1,0 +1,349 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    margin-top: 38px;
+    background-color: #F1C4C8;
+}
+body {
+    background-color: #a89da7;
+}
+
+ #header{
+    height: 38px;
+    background-color: #E30019;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    max-width: auto;
+    margin: auto;
+}
+
+/* --------------nav---------------- */
+#nav > img{
+    width: 100%;
+}
+#nav,.subnav {
+    list-style-type: none;
+}
+#nav .subnav > li:hover > a,
+#nav > li:hover > a{
+    color: rgb(0, 0, 0);
+    background-color: #fff; 
+}
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #E30019;
+    border-radius: 7px;
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 42px;
+}
+#nav li {
+    position: relative;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav .subnav li {
+    display: inline;
+}
+#nav > li > a {
+    color:#fff;
+    text-transform:uppercase;
+    font-weight: 550;
+    
+}
+#nav li a {
+    text-decoration: none;
+    line-height: 38px;
+    padding: 0 20px;
+    display:block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav li:nth-child(5) {
+    position: relative;
+}
+#nav li:nth-child(5) input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+#nav li:nth-child(5) i {
+    position: absolute;
+    font-size: 15px;
+    right: 12px;
+    color: #333;
+    line-height: 30px;
+}
+#nav  li :nth-child(6) {
+    
+    width: 100px;
+}
+#nav  li :nth-child(7) {
+    width: 100px;
+}
+#container-support .nav-support a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+input {
+    font-size:17px;
+}
+/* ------------------sidenav-------------- */
+#sidenav {
+    margin-top: 14px;
+    
+    border-radius: 13px;
+    height:500px;
+    width: 250px;
+    padding: 8px;
+    background-color: rgb(219, 235, 248);
+    display: block;
+    
+}
+.item > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.item {
+    padding: 8px;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 11px;
+    }
+    
+}
+#sidenav .item a {
+    text-decoration: none;
+}
+#sidenav .item .fa-chevron-right{
+    float: right;
+    padding: 8px;
+}
+#sidenav b {
+    font-size: 22px;
+}
+/* -------- slider----- */
+#slider {
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    margin-top: 5px;
+} 
+#silder > .bgr img {
+    vertical-align: middle;
+    width: 100%;
+}
+#silder .bgr img {
+    width: 100%;
+    height: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(175, 227, 195, 0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .bgr {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes bgr {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+/* --------------Nội dung-------------- */
+#container {
+    padding: 2px;
+    margin-left: 10px;
+    
+}
+.contents {
+    
+}
+.contents ul {
+    display: inline-block;
+    
+}
+.contents ul .content {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    display: block;
+    float: left;
+    width: 24%;
+    border: #333 solid 2px;
+    width: 300px;
+    height: 430px;
+    
+}
+.contents ul .no-margin {
+    margin-right: 0;
+  }
+.contentsul .img-content img {
+    width: 100%;
+    
+
+}
+.content-1 .content-1-h3 {
+    padding: .5rem 0;
+    overflow: hidden;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 19px;
+    margin: 0 0 6px;
+}
+.content-1 .content-1-price {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    
+    
+}
+.content .content-1 .content-1-price .price {
+    color: #c7b200;
+    font-weight: 600;
+    margin: 0 18px;
+    vertical-align: middle;
+    font-size: 17px;
+    margin-left: 10px;
+   
+}
+.content-1 .content-1-price .price .money {
+    vertical-align: middle;
+}
+.content-1 .content-1-price .btn-card {
+    background: #fff158;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 38px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+}
+.content-1 .content-1-price .btn-card:hover {
+    background: #c7b200;
+}
+
+/* -----------Chân Trang---------- */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* support */
+.hero {
+    background-color: #f2f2f2;
+    
+}
+
+.faq {
+    background-color: #fff;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.contact {
+    background-color: #f9f9f9;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    font-weight: bold;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
