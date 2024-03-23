@@ -9,16 +9,16 @@ html {
 }
 header {
     text-align: center;
-    margin-top: 47px;
+    margin-top: 50px;
     background-color: #F1C4C8;
 }
 body {
     background-color: #a89da7;
-    
+   
 }
 
 #header{
-    height: 47px;
+    height: 50px;
     background-color: #E30019;
     position: fixed;
     top: 0;
@@ -77,6 +77,10 @@ body {
     display:block;
     text-align: center;
 }
+#nav li a > i {
+    font-size: 20px;
+    margin-right: 5px;
+}
 #nav li:hover .subnav{
     display: block;
 }
@@ -107,6 +111,13 @@ body {
     font-size: 30px;
     margin-right: 10px;
 }
+#nav .fa-user-circle i:hover{
+    color: #333;
+    background-color: #ccc;
+}
+#nav .fa-user-circle i {
+    position: absolute;
+}
 .login {
     display: inline-block;
 }
@@ -130,6 +141,7 @@ body {
 input {
     font-size:17px;
 }
+
 /* ------------------sidenav-------------- */
 #sidenav {
     margin-top: 14px;
