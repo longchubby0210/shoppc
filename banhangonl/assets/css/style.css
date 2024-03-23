@@ -310,22 +310,113 @@ img {
 }
 
 /* -----------Chân Trang---------- */
+#top-footer {
+    border-top: 3px solid rgb(20, 53, 195);
+    position: relative;
+    height: 400px; 
+}
+.top-footer-1 {
+    
+    width: 100%;
+}
+.top-footer-1 .top-footer-1-right,
+.top-footer-1 .top-footer-1-center,
+.top-footer-1 .top-footer-1-left {
+    padding: 8px 20px;
+    font-size: 14px;
+    margin: 0px;
+   
+}
+.top-footer-1 .top-footer-1-right .top-footer-1-right-content,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content,
+.top-footer-1 .top-footer-1-left .top-footer-1-left-content {
+    font-size: 12px;
+    padding-top: 15px;
+    
+}
+.top-footer-1 .top-footer-1-right .top-footer-1-right-content :hover,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content :hover,
+.top-footer-1 .top-footer-1-left .top-footer-1-left-content :hover {
+   color: #0d6efd;
+    display: block;
+    
+}
+.top-footer-1 .top-footer-1-right .top-footer-1-right-content  a ,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content a,
+.top-footer-1 .top-footer-1-left .top-footer-1-left-content a{
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 10px;
+
+}   
+@media screen and (min-width: 40em) {
+    .top-footer-1-right,
+    .top-footer-1-center,
+    .top-footer-1-left {
+        width: 33,3333%;
+    }
+}
+
 #footer {
-    background-color: #333;
+    background-color: rgb(233, 237, 242);
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    
+    width: 100%;
+    color: #000000;
+}
+.footer-1 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    padding: 20px 10px;
+}
+@media screen and (min-width: 40em){
+    .footer-right,.footer-left {
+        width: 50%;
+    }
+}
+
+
+.footer-right {
+    font-size: 14px;
+    text-align: left; 
+    left: 0;
+}
+.footer-right-1 {
+    font-size: 12px;
+    padding-right: 8px;
+    text-align: left; 
+}
+.footer-left{
+    font-size: 12px;
+    margin: 0;
+    text-align: left;    
+}
+.footer-img {
+    width: 100%;
+    max-width: 160px;
+    line-height: 2rem;
+}
+.ft-img1 {
+    display: block;
+}
+.footer-img img {
+    float: left;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 /* support */
 .hero {
-    background-color: #f2f2f2;
-    
+    background-color: #f2f2f2; 
 }
-
 .faq {
     background-color: #fff;
 }
-
 .faq-item {
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
