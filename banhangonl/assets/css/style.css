@@ -145,7 +145,6 @@ input {
 /* ------------------sidenav-------------- */
 #sidenav {
     margin-top: 14px;
-    
     border-radius: 13px;
     height:500px;
     width: 250px;
@@ -153,6 +152,9 @@ input {
     background-color: rgb(219, 235, 248);
     display: block;
     
+}
+.col-sm-3 {
+    width: auto;
 }
 .item > a{
     
@@ -284,16 +286,16 @@ img {
     color: #333;
     font-weight: 500;
     font-size: 16px;
-    max-height: 50px;
-    min-height: 50px;
+    height: 60px;
+    
     text-align: center;
-    line-height: 19px;
+    line-height: 20px;
     margin: 0 0 6px;
 }
 .content-1 .content-1-price {
     display: flex;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 50px;
     margin-bottom:  20px;
     
 }
