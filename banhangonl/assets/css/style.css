@@ -7,7 +7,7 @@
 html {
     font-family:Arial, Helvetica, sans-serif;
 }
-header {
+#main header {
     text-align: center;
     margin-top: 50px;
     background-color: #F1C4C8;
@@ -188,17 +188,15 @@ img {
 /* -------- slider----- */
 #slider {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     position: relative;
     margin-top: 5px;
+    
 } 
-#silder > .bgr img {
-    vertical-align: middle;
-    width: 100%;
-}
+
 #silder .bgr img {
     width: 100%;
-    height: 100%;
+    
     vertical-align: middle;
 }
 .prev, .next {
@@ -266,17 +264,19 @@ img {
     float: left;
     width: 24%;
     border: #333 solid 2px;
-    width: 300px;
+    width: 250px;
     height: 430px;
     
 }
 .contents ul .no-margin {
     margin-right: 0;
   }
-.contentsul .img-content img {
-    width: 100%;
-    
-
+/* .img-content img {
+    width: 100;
+} */
+.contnet .img-content .img-ct img {
+    width: 100px;
+    height: auto;
 }
 .content-1 .content-1-h3 {
     padding: .5rem 0;
@@ -293,14 +293,14 @@ img {
 .content-1 .content-1-price {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    
+    padding-top: 70px;
+    margin-bottom:  20px;
     
 }
 .content .content-1 .content-1-price .price {
     color: #c7b200;
     font-weight: 600;
-    margin: 0 18px;
+    margin: 6px 18px;
     vertical-align: middle;
     font-size: 17px;
     margin-left: 10px;
@@ -317,7 +317,7 @@ img {
     margin-right: 38px;
     height: 35px;
     text-align: center;
-    padding-top: 6px;
+    padding-top: 5px;
 }
 .content-1 .content-1-price .btn-card:hover {
     background: #c7b200;
