@@ -155,6 +155,7 @@ input {
     
 }
 .item > a{
+    
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -198,6 +199,7 @@ img {
 #silder .bgr img {
     width: 100%;
     height: 100%;
+    vertical-align: middle;
 }
 .prev, .next {
     cursor: pointer;
@@ -325,7 +327,7 @@ img {
 #top-footer {
     border-top: 3px solid rgb(20, 53, 195);
     position: relative;
-    height: 400px; 
+    height: 450px; 
 }
 .top-footer-1 {
     
@@ -337,7 +339,13 @@ img {
     padding: 8px 20px;
     font-size: 14px;
     margin: 0px;
-   
+    float: left;
+}
+.top-footer-1 .top-footer-1-right .top-footer-1-right-content-1 {
+    padding-top: 10px;
+    margin-top: 1px;
+    width: 20px;
+    height: 10px;
 }
 .top-footer-1 .top-footer-1-right .top-footer-1-right-content,
 .top-footer-1 .top-footer-1-center .top-footer-1-center-content,
@@ -369,6 +377,18 @@ img {
         width: 33,3333%;
     }
 }
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content .fa-facebook-square,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content .fa-youtube-play,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content .ti-twitter-alt,
+.top-footer-1 .top-footer-1-center .top-footer-1-center-content .fa-users{
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    text-align: center;
+    padding-right: 5px;
+    
+}   
 
 #footer {
     background-color: rgb(233, 237, 242);
