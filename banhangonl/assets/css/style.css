@@ -17,7 +17,8 @@ body {
    
 }
 
-#header{
+#main #header{
+    width: auto;
     height: 50px;
     background-color: #E30019;
     position: fixed;
@@ -292,12 +293,8 @@ img {
     margin-left: 10px;
     
 }
-.contents {
-    
-}
 .contents ul {
-    display: inline-block;
-    
+    display: inline-block; 
 }
 .contents ul .content {
     margin-bottom: 2rem;
@@ -510,6 +507,12 @@ img {
     overflow-y: auto;
 }
 /* ---------- lap-top-van-phong------------ */
+.space-top-ltvp {
+    width: 100%;
+    height: 3px;
+    background-color: #0d6efd;
+    margin-top: 15px;
+}
 #container-laptop .css-1 i {
     font-size: 30px;
     padding: 30px 0px 20px 20px;
@@ -530,11 +533,98 @@ img {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
-
-
-
-
+.content-laptop ul {
+    display: inline-block;
+}
+.content-latop ul .content-ltvp {
+    display: block;
+    width: 250px;
+    height: 450px;
+    
+    
+    float: left;
+}
+.content-laptop .content-ltvp {
+    display: block;
+    width: 20%;
+    width: 250px;
+    height: 450px;
+    border: 1px solid #333;
+    margin: 10px;
+}
+@media  (max-width:567px) {
+    .content-laptop .img-content-ltvp {
+        padding: 8px;
+    }
+}
+.content-laptop ul .no-margin {
+    margin-right: 0;
+  }
+.content-laptop .img-content-ltvp{
+    text-align: center;
+    position: relative;
+    
+}
+.content-laptop .img-content-ltvp img {
+    width: 100%;
+    height: auto;
+}
+.content-laptop .content-1-ltvp .content-1-a-ltvp {
+    color: #333;
+    font-weight: 550;
+    font-size: 14px;
+    height: 60px;
+    line-height: 20px;
+    margin: 6px 0;
+    text-decoration: none;
+}
+.content-laptop .content-ltvp .system-ltvp {
+    background-color: #cbc6c6;
+    width: 230px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 3px;
+}
+.content-ltvp .system-ltvp .core-ltvp {
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    float: left;
+}
+@media (max-width:991px) {
+    .content-laptop .content-ltvp .system-ltvp {
+        font-size: 12px;
+    }
+}
+.content-laptop .content-ltvp .content-1-buy {
+    width: 123px;
+    height: 23px;
+    color: #E30019;
+    margin-left: 10px;
+    border: 1px solid #E30019;
+    text-align: center;
+}
+.content-laptop .content-ltvp .content-1-price-ltvp .price-ltvp .money-ltvp{
+    font-size: 16px;
+    color: #E30019;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.content-laptop .content-ltvp .content-1-price-ltvp .price-ltvp span {
+    display: inline-block;
+}
+@media (max-width:991px){
+.content-latop .content-ltvp .content-1-ltvp .content-rating {
+    font-size: 10px; 
+}
+}
+.content-latop .content-ltvp .content-1-ltvp .content-rating .number {
+    color: #FF8A00;
+    font-weight: 600;
+    font-size: 10px;
+}
 /* support */
 .hero {
     background-color: #f2f2f2; 
