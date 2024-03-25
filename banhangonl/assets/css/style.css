@@ -53,6 +53,7 @@ body {
 #nav .subnav a {
     color: black;
     padding: 0 42px;
+    width: 186px;
 }
 #nav li {
     position: relative;
@@ -68,7 +69,6 @@ body {
     color:#fff;
     text-transform:uppercase;
     font-weight: 550;
- 
 }
 #nav li a {
     text-decoration: none;
@@ -122,7 +122,6 @@ body {
     display: inline-block;
 }
 #nav .login button {
-   
     height: 30px;
     width: 80px;
     text-align: center;
@@ -137,11 +136,9 @@ body {
     text-decoration: none;
     margin: 0 10px;
 }
-
 input {
     font-size:17px;
 }
-
 /* ------------------sidenav-------------- */
 #sidenav {
     margin-top: 14px;
@@ -151,13 +148,11 @@ input {
     padding: 8px;
     background-color: rgb(219, 235, 248);
     display: block;
-    
 }
 .col-sm-3 {
     width: auto;
 }
 .item > a{
-    
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -165,27 +160,72 @@ input {
 .item {
     padding: 8px;
     margin: auto;
+    border: none;
+    display: block;
 }
 img {
     max-width: 100%;
     height: auto;
 }
 @media screen and (max-width: 767px) {
-    .sidenav {
+    #sidenav .sidenav-1 {
         height: auto;
         padding: 11px;
     }
-    
 }
-#sidenav .item a {
+#sidenav .sidenav-1 .item a {
     text-decoration: none;
 }
-#sidenav .item .fa-chevron-right{
+#sidenav .sidenav-1 :hover {
+    background-color: #f3f3f3; 
+}
+#sidenav .sidenav-1 .sub-menu .cap-2:hover {
+    color: #0d6efd;
+}
+#sidenav .sidenav-1 .item .fa-chevron-right{
     float: right;
     padding: 8px;
 }
 #sidenav b {
     font-size: 22px;
+}
+.sidenav-1 .col-sub-menu {
+    width: 20%;
+    float: left;
+    padding: 0 10px;
+}
+.sub-menu {
+    position: absolute;
+    display: none;
+    left: 257px;
+    background: #f3f3f3;
+    height: 500px;
+    top: 15px;
+    width: 980px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.item .sub-menu .cap-1 {
+    color: #e80104;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.item .sub-menu a {
+    display: block;
+    line-height: 1.7;
+    color: #000000;
+}
+.item .sub-menu .boxx a,
+.item .sub-menu .boxx a:hover {
+    text-decoration: none;
+    display: block;
+}
+.sidenav-1 :hover .sub-menu {
+    display: block;
+    position: absolute;
+}
+.sidenav-1 .item a {
+    color: #000000;
 }
 /* -------- slider----- */
 #slider {
@@ -324,6 +364,31 @@ img {
 .content-1 .content-1-price .btn-card:hover {
     background: #c7b200;
 }
+/* -------- Số trang  đang truy cập----- */
+.next-page {
+    width: 100%;
+    height: 70px;
+    background-color: #cac6c6;
+    text-align: center;
+}
+
+.next-page .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.next-page .pagination a.active {
+    background-color: rgb(27, 141, 255);
+    color: white;
+    border-radius: 8px;
+}
+  
+.next-page .pagination a:hover:not(.active) {
+    background-color: #dddddd;
+}
 
 /* -----------Chân Trang---------- */
 #top-footer {
@@ -444,6 +509,32 @@ img {
     overflow-x: auto;
     overflow-y: auto;
 }
+/* ---------- lap-top-van-phong------------ */
+#container-laptop .css-1 i {
+    font-size: 30px;
+    padding: 30px 0px 20px 20px;
+}
+#container-laptop .css-1  b {
+    font-size: 25px;
+    margin-left: 15px;
+}
+.content-laptop .colum-ltvp .nav-left-ltvp{
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+
+
+
 /* support */
 .hero {
     background-color: #f2f2f2; 
