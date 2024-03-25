@@ -13,7 +13,7 @@ html {
     background-color: #F1C4C8;
 }
 body {
-    background-color: #a89da7;
+    background-color: #f3f3f3!important;
    
 }
 
@@ -368,7 +368,7 @@ img {
 .next-page {
     width: 100%;
     height: 70px;
-    background-color: #cac6c6;
+    background-color:#deddde;
     text-align: center;
 }
 
