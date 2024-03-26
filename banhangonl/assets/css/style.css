@@ -9,17 +9,16 @@ html {
 }
 #main header {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: #F1C4C8;
 }
 body {
     background-color: #f3f3f3!important;
-   
 }
 
 #main #header{
     width: auto;
-    height: 50px;
+    height: 60px;
     background-color: #E30019;
     position: fixed;
     top: 0;
@@ -29,10 +28,12 @@ body {
     max-width: auto;
     z-index: 1;
 }
-
 /* --------------nav---------------- */
-
-
+#header #nav {
+    text-align: center;
+    padding: 8px;
+    
+}
 #nav > img{
     width: 100%;
 }
@@ -50,7 +51,6 @@ body {
     background-color: #E30019;
     border-radius: 7px;
 }
-
 #nav .subnav a {
     color: black;
     padding: 0 42px;
@@ -521,18 +521,7 @@ img {
     font-size: 25px;
     margin-left: 15px;
 }
-.content-laptop .colum-ltvp .nav-left-ltvp{
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    background: #FFFFFF;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
+
 .content-laptop ul {
     display: inline-block;
 }
@@ -540,8 +529,6 @@ img {
     display: block;
     width: 250px;
     height: 450px;
-    
-    
     float: left;
 }
 .content-laptop .content-ltvp {
@@ -551,10 +538,11 @@ img {
     height: 450px;
     border: 1px solid #333;
     margin: 10px;
+    float: left;
 }
 @media  (max-width:567px) {
     .content-laptop .img-content-ltvp {
-        padding: 8px;
+        padding: 1px;
     }
 }
 .content-laptop ul .no-margin {
@@ -569,32 +557,39 @@ img {
     width: 100%;
     height: auto;
 }
+.content-laptop .content-1-ltvp {
+    width: 250px;
+    height: 198px;
+    position: relative;
+    box-sizing: border-box;
+}
 .content-laptop .content-1-ltvp .content-1-a-ltvp {
     color: #333;
     font-weight: 550;
-    font-size: 14px;
+    font-size: 16px;
     height: 60px;
     line-height: 20px;
     margin: 6px 0;
     text-decoration: none;
+    margin-left: 10px;
+}
+.content-laptop .content-1-ltvp .content-1-a-ltvp a {
+    padding-left: 10px;
+    width: 300px;
 }
 .content-laptop .content-ltvp .system-ltvp {
     background-color: #cbc6c6;
-    width: 230px;
+    width: 238px;
     height: 40px;
-    margin: 8px;
+    margin: 6px;
     border-radius: 3px;
+    font-size: 12px;
 }
 .content-ltvp .system-ltvp .core-ltvp {
     margin-left: 10px;
     padding-top: 1px;
     padding-bottom: 3px;
     float: left;
-}
-@media (max-width:991px) {
-    .content-laptop .content-ltvp .system-ltvp {
-        font-size: 12px;
-    }
 }
 .content-laptop .content-ltvp .content-1-buy {
     width: 123px;
@@ -613,12 +608,10 @@ img {
     padding-top: 10px;
 }
 .content-laptop .content-ltvp .content-1-price-ltvp .price-ltvp span {
-    display: inline-block;
+    display:  block;
 }
-@media (max-width:991px){
 .content-latop .content-ltvp .content-1-ltvp .content-rating {
-    font-size: 10px; 
-}
+   
 }
 .content-latop .content-ltvp .content-1-ltvp .content-rating .number {
     color: #FF8A00;
