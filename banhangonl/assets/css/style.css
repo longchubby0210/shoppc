@@ -13,7 +13,7 @@ html {
     position: relative;
     border-radius: 30px;
 }
-#main > header {
+header {
     text-align: center;
     margin-top: 50px;
     background-color: #F1C4C8;
@@ -235,16 +235,35 @@ img {
 /* -------- slider----- */
 #slider {
     margin: auto;
-    max-width: 1000px;
+    max-width: 900px;
     position: relative;
-    margin-top: 5px;
-    
+    margin-top: 10px;   
 } 
-
+#slider .bgr {
+    margin-left: 82px;
+}
 #silder .bgr img {
     width: 100%;
-    
     vertical-align: middle;
+}
+.col-sm-9 .slider-left {
+    width: 110px;
+}
+@media screen and (max-width:1329px) {
+    .slider-left, .slider-right {
+        display: none;
+    }
+}
+.slider-left img {
+    margin-top: -670px;
+}
+.col-sm-9 .slider-right {
+    width: 110px;
+    float: right;
+}
+.slider-right img{
+    margin-top: -710px;
+   
 }
 .prev, .next {
     cursor: pointer;
@@ -258,16 +277,18 @@ img {
     font-size: 20px;
     transition: 0.6s ease;
     user-select: none;
-  }
-  .next {
-    right: 0;
+}
+.next {
+    right: 82px;
     border-radius: 3px 0 0 3px;
-
-  }
-  .prev:hover, .next:hover {
+}
+.prev {
+    left: 82px;
+}
+.prev:hover, .next:hover {
     background-color: rgba(175, 227, 195, 0.8);
-  }
-  .dot {
+}
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -276,53 +297,67 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  .active, .dot:hover {
+}
+.active,.dot:hover {
     background-color: #717171;
-  }
-  .bgr {
+}
+.bgr {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  @keyframes bgr {
+}
+@keyframes bgr {
     from {opacity: .4} 
     to {opacity: 1}
-  }
-  @media only screen and (max-width: 300px) {
+}
+@media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
-  }
-  @media screen and (max-width:1137px) {
-        .col-sm-9  {
-            width: 800px;
-            display: block;
-        }
-         #sidenav{ 
-            width: auto;
-            height: 440px;
-            padding: 4px;
-        }
-        .sidenav-1 .item {
-            padding: 6px;
-        }
-        .item .sub-menu {
-            left: 248px;
-            height: 460px;
-        }
+}
+ @media screen and (max-width:1137px) {
+    .col-sm-9  {
+        width: 800px;
+        display: block;
+    }
+     #sidenav{ 
+        width: auto;
+        height: 440px;
+        padding: 4px;
+    }
+    .sidenav-1 .item {
+        padding: 6px;
+    }
+    .item .sub-menu {
+        left: 248px;
+        height: 460px;
+    }
+    .next {
+        right: 68px;
+        border-radius: 3px 0 0 3px;
+    }
         
-  }
+}
   @media screen and (max-width:1100px) {
     .col-sm-9  {
         width: 700px;
         display: block;
     }
+    .next {
+        right: 58px;
+        border-radius: 3px 0 0 3px;
+    }
 }
 @media screen and (max-width:997px) {
     .col-sm-9  {
-        width: 580px;
+        width: 550px;
         display: block;
     }
+    .next {
+        right: 46px;
+        border-radius: 3px 0 0 3px;
+    }
+    #slider .bgr {
+        margin-top: 30px;
+    }
 }
-
 /* --------------Nội dung-------------- */
 #container {
     padding: 2px;
