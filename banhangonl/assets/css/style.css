@@ -7,9 +7,9 @@
 html {
     font-family:Arial, Helvetica, sans-serif;
 }
-#main header {
+#main > header {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     background-color: #F1C4C8;
 }
 body {
@@ -17,22 +17,18 @@ body {
 }
 
 #main #header{
-    width: auto;
-    height: 60px;
+    
     background-color: #E30019;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    text-align: center;
-    max-width: auto;
     z-index: 1;
 }
 /* --------------nav---------------- */
 #header #nav {
     text-align: center;
-    padding: 8px;
-    
+    height: 40px;
 }
 #nav > img{
     width: 100%;
@@ -53,8 +49,9 @@ body {
 }
 #nav .subnav a {
     color: black;
-    padding: 0 42px;
-    width: 186px;
+    padding: 0px;
+    width: 162px;
+    font-weight: 550;
 }
 #nav li {
     position: relative;
@@ -70,23 +67,24 @@ body {
     color:#fff;
     text-transform:uppercase;
     font-weight: 550;
+    text-align: center;
 }
 #nav li a {
     text-decoration: none;
-    line-height: 47px;
-    padding: 0 25px;
+    line-height: 50px;
+    padding: 0 15px;
     display:block;
     text-align: center;
 }
 #nav li a > i {
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 5px;
 }
 #nav li:hover .subnav{
     display: block;
 }
 #nav li:nth-child(5) {
-    padding-left: 150px;
+    padding-left: 15px;
     position: relative;
 }
 #nav li:nth-child(5) input {
@@ -110,7 +108,8 @@ body {
     text-align: center;
     margin-top: 10px;
     font-size: 30px;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
 }
 #nav .fa-user-circle i:hover{
     color: #333;
@@ -317,22 +316,31 @@ img {
     width: 100px;
     height: auto;
 }
+.content-1 .content-1-h2 {
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(130, 134, 158);
+    padding-left: 7px; 
+}
+.content-1 a {
+    text-decoration: none;
+}
 .content-1 .content-1-h3 {
-    padding: .5rem 0;
     overflow: hidden;
     color: #333;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 16px;
     height: 60px;
-    
-    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
     line-height: 20px;
     margin: 0 0 6px;
 }
 .content-1 .content-1-price {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-bottom:  20px;
     
 }
@@ -509,14 +517,9 @@ img {
 /* ---------- lap-top-van-phong------------ */
 #container-laptop .header-ltvp img{
     max-width: 100%;
-    padding: 10px 145px;
+    padding: 10px 115px;
     margin-left: 15px;
     border-radius: 3px; 
-
-}
-#container-laptop .header-ltvp a {
-    width: 900px;
-    height: auto;
     
 }
 .content-laptop .top-content-ltvp {
@@ -524,17 +527,15 @@ img {
     height: 100px;
 }
 .content-laptop .top-content-ltvp .top-content-ltvp-1 {
-    padding: 23px 35px;
+    padding: 20px 5px;
     float: left;
     display: flex;
-    
 }
 .content-laptop .top-content-ltvp .top-content-ltvp-1 .top-content-ltvp-2 {
     padding: 0 4px;
 }
 .content-laptop .top-content-ltvp .top-content-ltvp-1 .top-content-ltvp-2 a {
         text-decoration: none;
-        
 }
 .content-laptop .top-content-ltvp .top-content-ltvp-1 .top-content-ltvp-2 .top-content-ltvp-3 .fa-sort-desc {
     float: right;
@@ -543,8 +544,7 @@ img {
 .content-laptop .top-content-ltvp .top-content-ltvp-1 .top-content-ltvp-2 {
     width: auto;
     height: 30px;
-    cursor: pointer;
-    padding: 5px 12px;
+    padding: 4px 10px;
     margin-left: 4px;
     border: 1px solid #CFCFCF;
     font-size: 14px;
@@ -552,15 +552,14 @@ img {
     position: relative;
     border-radius: 5px;
 }
-
 .content-laptop .top-content-ltvp .top-content-ltvp-1 .top-content-ltvp-2 .top-content-ltvp-3 {
     color: #000000;
     padding: 4px 7px;
 }
 .content-laptop {
-    width: 80%;
+    width: 84%;
     background-color: #fff;
-    margin-left: 160px;
+    margin-left: 130px;
     border-radius: 4px;
 }
 .space-top-ltvp {
@@ -577,7 +576,6 @@ img {
     font-size: 25px;
     margin-left: 15px;
 }
-
 .content-laptop ul {
     display: inline-block;
 }
@@ -667,9 +665,6 @@ img {
 }
 .content-laptop .content-ltvp .content-1-price-ltvp .price-ltvp span {
     display:  block;
-}
-.content-latop .content-ltvp .content-1-ltvp .content-rating {
-   
 }
 .content-latop .content-ltvp .content-1-ltvp .content-rating .number {
     color: #FF8A00;
