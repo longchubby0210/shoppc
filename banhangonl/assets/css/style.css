@@ -111,8 +111,7 @@ body {
 }
 #nav .login button {
     text-align: center;
-    margin-top: 13px;
-    padding-top: 5px;
+    margin-top: 10px;
 }
 #nav  li :nth-child(8) .login{
 
@@ -144,11 +143,6 @@ body {
 }
 #nav  li :nth-child(8) {
     width: 100px;
-}
-#container-support .nav-support a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
 }
 input {
     font-size:17px;
@@ -920,8 +914,8 @@ img {
 /* support */
 .jumbotron-support {
     background-color: #eadddd;
-    padding: 3rem;
-    margin-top: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px 0px rgba(216, 7, 7, 0.1);
+      padding: 3rem;
+      margin-top: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px 0px rgba(216, 7, 7, 0.1);
   }
