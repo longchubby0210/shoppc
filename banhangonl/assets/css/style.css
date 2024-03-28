@@ -173,9 +173,14 @@ img {
     height: auto;
 }
 @media screen and (max-width: 767px) {
-    #sidenav .sidenav-1 {
-        height: auto;
+    .col-sm-3  {
+        width: 250px;
+        height: 470px;
         padding: 5px;
+    }
+    #sidenav .sub-menu{
+        margin-top: 20px;
+        left: 240px;
     }
 }
 #sidenav .sidenav-1 .item a {
@@ -205,7 +210,7 @@ img {
     left: 254px;
     background: #f3f3f3;
     height: 500px;
-    top: 15px;
+    top: 10px;
     width: 980px;
     z-index: 2;
     border-radius: 5px;
@@ -231,6 +236,14 @@ img {
 }
 .sidenav-1 .item a {
     color: #000000;
+}
+@media screen  and (max-width:915px){
+    #sidenav {
+        margin-top: 20px;
+    }
+    #sidenav .sub-menu {
+        margin-top: 10px;
+    }
 }
 /* -------- slider----- */
 #slider {
@@ -386,20 +399,20 @@ img {
     color: #E30019;
 }
 .contents .contents-spnb .contents-spnb-center {
-    margin-left: 210px;
+    margin-left: 200px;
     width: 200px;
     text-align: center;
 }
 .contents .contents-spnb .contents-spnb-center i {
-    font-size: 29px;
-    margin-top: 10px;
+    font-size: 25px;
+    margin-top: 13px;
     color: #E30019;
 }   
 .contents .contents-spnb .contents-spnb-center span {
    padding: 0 12px;
    text-align: center;
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 600;
     color: #E30019;
 }
 .contents .cut {
@@ -418,15 +431,15 @@ img {
     display: inline-block; 
 }
 #container .contents ul {
-    width: 92%;
-    margin: 0 70px;
+    width: 1300px;
+    margin: 0 260px;
     background-color: #fff;
     border-radius: 5px;
     margin-top: 30px;
 }
 .contents ul .content {
-    margin-top: 2px;
-    margin-left: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
     margin-bottom: 1.5rem;
     margin-right: 0.5rem;
     display: block;
@@ -437,7 +450,23 @@ img {
     height: 430px;
     border-radius: 2px;
 }
+@media screen and (max-width:1577px){
+    #container .contents ul {
+        width: 92%;
+        
+        margin: 0 110px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:1200px){
+    #container .contents ul {
+        width: 92%;
+        margin: 0 60px;
+        margin-top: 30px;
+    }
+}
 @media screen and (max-width:840px){
+
     .content-1 {
         height: 140px;
     }
@@ -453,8 +482,9 @@ img {
     } 
     .content .content-1 .content-1-buy {
         font-size: 10px;
-        width: auto;
         padding-top: 1px;
+        width: 90px;
+        
     }
     .content .content-1 .content-1-price .price .money {
         font-size: 9px;
@@ -513,7 +543,6 @@ img {
     margin-left: 10px;
     border: 1px solid #E30019;
     text-align: center;
-    box-sizing: border-box;
 }
 .content-1 .content-1-price {
     display: flex;
