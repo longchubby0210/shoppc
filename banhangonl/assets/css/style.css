@@ -105,16 +105,8 @@ body {
     line-height: 38px;
 }
 #nav .login { 
-    width: 100px;
-    text-align: center;
-    border-radius: 30px;
-}
-#nav .login button {
-    text-align: center;
+    width: 110px;
     margin-top: 10px;
-}
-#nav  li :nth-child(8) .login{
-
 }
 #nav .fa-user-circle {
     float:right;
@@ -919,3 +911,9 @@ img {
       border-radius: 15px;
       box-shadow: 0px 0px 15px 0px rgba(216, 7, 7, 0.1);
   }
+.collapse .nav-item .nav-link:hover {
+    color: #E30019;
+    background-color: #CFCFCF;
+    border-radius: 3px;
+    font-weight: 600;
+}
