@@ -946,3 +946,200 @@ img {
 .btn-secondary{
     background-color: #c4b106;
 }
+/* -------------Giỏ hàng-------------------------------- */
+.top-content-giohang .content-giohang .content-giohang-left{
+    font-size: 35px;
+    font-weight: 550;
+    margin-left: 200px;
+    color: #E30019;
+}
+.container-giohang .top-content-giohang {
+    height: 70px;
+    margin-top: 27px;
+}
+.container-giohang .top-content-giohang .content-giohang .fa-search {
+    color: #c4b106;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.container-giohang .top-content-giohang .content-giohang .search-giohang input{
+    border-radius: 4px;
+    font-size: 25px;
+    padding-left: 10px;
+    right: 20px;
+}
+.top-content-giohang .content-giohang .search-giohang {
+    margin-left: 830px;
+    margin-top: -42px;
+    background-color:  #d9293d;
+    margin-right: 243px;
+    border-radius: 4px;
+    display: flex;
+}
+.top-content-giohang .content-giohang .search-giohang .input-header-giohang {
+    width: 550px;
+    border: 3px solid #E30019;  
+}
+.cut-top-giohang {
+    height: 2px;
+    background-color: #717171;
+}
+.content-giohang-giua {
+    width: 1200px;
+    margin-left: 210px;
+    
+}
+.content-giohang-giua .dau-giohang {
+    margin-top: 2rem;
+    align-items: center;
+    background-color: #fffefb;
+    border: 1px solid rgba(224, 168, 0, .4);
+    border-radius: 2px;
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+}
+.content-giohang-giua .dau-giohang-1 {
+    display: flex;
+    padding: 2rem 0;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.content-giohang-giua input { 
+    float: left;
+    margin-left: 60px;  
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+.content-giohang-giua .dau-giohang-1 .giohang-sanpham {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: 550;
+}
+.content-giohang-giua .dau-giohang-1 .giohang-gia {
+    margin-top: 15px;
+    margin-left: 500px;
+}
+.content-giohang-giua .dau-giohang-1 .giohang-soluong{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.content-giohang-giua .dau-giohang-1 .giohang-money{
+    margin-top: 15px;
+    margin-left: 75px;
+}
+.content-giohang-giua .dau-giohang-1 .giohang-thaotac{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.content-giohang-giua .sanpham-1 {
+    height: 370px;
+    background-color: #fff;
+    margin-top: 15px; 
+     
+}
+.content-giohang-giua .sanpham-1 .shop {
+
+    display: flex;
+}
+.content-giohang-giua .sanpham-1 .shop .shop-giohang {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.content-giohang-giua .sanpham-1 .shop-center {
+    margin: 0 20px;
+    margin-top: 30px;
+    height: 150px;
+    border: 1px solid #dbd9d9;
+    border-radius: 4px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-top {
+    padding: 10px 0;
+    display: flex;
+    background-color: #fbd4c3;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-top-left {
+    border: 1px solid #ff1c1c;
+    color: #d9293d;
+    padding: 1px 3px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-top-center {
+    margin-left: 10px;
+    font-weight: 600;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-top-right {
+    margin-left: 10px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-top-right a {
+    color: #E30019;
+    text-decoration: none;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom {
+    display: flex;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom #myCheck {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .img-giohang {
+    width: 100px;
+    margin-left: 20px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-h4 {
+    width: 230px;
+    line-height: 20px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-h5 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #717171;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-money {
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong {
+    margin-left: 70px;
+    margin-top: 25px;
+    border: 1px solid #717171;
+    height: 30px;
+    text-align: center;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .fa-minus {
+    width: 20px;
+    text-align:center;
+    margin: 1px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .fa-plus {
+    width: 20px;
+    margin: 1px;
+    padding-right: 2px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .soluong-hang {
+    padding: 0 15px;
+    font-size: 20px;
+    border: 1px solid #717171;
+} 
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-sum-money {
+    margin-top: 27px;
+    margin-left: 30px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-delete {
+    margin-left: 80px;
+    margin-top: 27px;
+    color: #000000;
+    text-decoration: none;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-delete :hover {
+    color: #0d6efd;
+}
+.content-giohang-giua .sanpham-1 .shop-bottom {
+    height: 60px;
+    margin-left: 30px;
+}
