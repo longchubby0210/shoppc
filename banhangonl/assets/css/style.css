@@ -451,6 +451,7 @@ img {
     height: 430px;
     border-radius: 2px;
 }
+
 @media screen and (max-width:1577px){
     #container .contents ul {
         width: 92%;
@@ -903,7 +904,7 @@ img {
         width: 80%;
     }
 }
-/* support */
+/* ----------------------------support ---------------------------------*/
 .jumbotron-support {
     background-color: #eadddd;
       padding: 3rem;
@@ -916,4 +917,9 @@ img {
     background-color: #CFCFCF;
     border-radius: 3px;
     font-weight: 600;
+}
+/* --------------dell-xps-13-------------------- */
+.container-dell-xps-13 .row .col-md-6 .product-description h2 {
+    color: #0d6efd;
+    
 }
