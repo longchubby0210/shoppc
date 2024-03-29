@@ -20,6 +20,7 @@ header {
 }
 body {
     background-color: #f3f3f3!important;
+
 }
 #main #header{
     background-color: #E30019;
@@ -100,7 +101,7 @@ body {
 #nav li:nth-child(6) i {
     position: absolute;
     font-size: 19px;
-    right: 12px;
+    right: 10px;
     color: #333;
     line-height: 38px;
 }
@@ -115,30 +116,43 @@ body {
     font-size: 30px;
     margin-right: 12px;
     margin-bottom: 10px;
+    
 }
 #nav .fa-user-circle i:hover{
     color: #333;
-    background-color: #ccc;
 }
 #nav .fa-user-circle i {
     position: absolute;
+}
+#nav .fa-cart-arrow-down {
+    float: right;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+    text-align: center;
+    color: #c4b106;
+}
+#nav .fa-cart-arrow-down:hover {
+    color: #c7b200;
 }
 .login {
     display: inline-block;
 }
 #nav .login button {
     height: 30px;
-    width: 80px;
+    width: 90px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 50px;
     color: black;
 }
 #nav  li :nth-child(8) {
     width: 100px;
 }
 input {
+    text-align: center;
     font-size:17px;
 }
+
 /* ------------------sidenav-------------- */
 #sidenav {
     margin-top: 10px;
@@ -377,6 +391,11 @@ img {
         margin-top: 30px;
     }
 }
+@media screen  and (max-width:796px){
+    .col-sm-9 {
+        display: none;
+    }
+}
 /* --------------Nội dung-------------- */
 #container {
     padding: 2px;
@@ -433,7 +452,7 @@ img {
 #container .contents ul {
     display: inline-block; 
     width: 1300px;
-    margin: 0 310px;
+    margin-left: 220px;
     background-color: #fff;
     border-radius: 5px;
     margin-top: 30px;
@@ -451,7 +470,6 @@ img {
     height: 430px;
     border-radius: 2px;
 }
-
 @media screen and (max-width:1577px){
     #container .contents ul {
         width: 92%;
@@ -588,7 +606,6 @@ img {
     margin-left: 15px;
     line-height: 20px;
 }
-
 /* -------- Số trang  đang truy cập----- */
 
 .next-page {
@@ -922,4 +939,10 @@ img {
 .container-dell-xps-13 .row .col-md-6 .product-description h2 {
     color: #0d6efd;
     
+}
+.col-md-6{
+    background-color: #F1C4C8;
+}
+.btn-secondary{
+    background-color: #c4b106;
 }
