@@ -1113,6 +1113,7 @@ img {
     width: 80px;
     text-align: center;
     border: 1px solid #333;
+    border-radius: 3px ;
 }
 .content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .tang-giam-soluong {
     width: 30px;
