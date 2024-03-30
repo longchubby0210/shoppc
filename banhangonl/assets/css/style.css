@@ -1106,27 +1106,32 @@ img {
     margin-top: 27px;
 }
 .content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong {
-    margin-left: 70px;
+    margin-left:70px;
     margin-top: 25px;
+    height: 25px;
+    display: flex;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #333;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .tang-giam-soluong {
+    width: 30px;
     border: 1px solid #717171;
-    height: 30px;
+}
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .tang-giam-soluong .so-luong-hang{
     text-align: center;
 }
-.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .fa-minus {
-    width: 20px;
-    text-align:center;
-    margin: 1px;
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom  .button-minus {
+    margin-top: -1px;
+    width: 26px;
+    height: 25px;
 }
-.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .fa-plus {
-    width: 20px;
-    margin: 1px;
-    padding-right: 2px;
-}
-.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-soluong .soluong-hang {
-    padding: 0 15px;
-    font-size: 20px;
-    border: 1px solid #717171;
-} 
+.content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom  .button-plus {
+    width: 26px;
+    height: 25px;
+    margin-top: -1px;
+   
+}  
 .content-giohang-giua .sanpham-1 .shop-center .shop-center-bottom .shop-center-sum-money {
     margin-top: 27px;
     margin-left: 30px;
